@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>math</title>
+</head>
+<body>
+
+	<script>
+		  var date=new Date();
+	 document.write(date.toLocaleDateString());
+	  document.write("<br>")
+	    var b=date.getHours();
+		if(b>0 && b<=12){
+			document.write("Good Morning");
+		}
+		else if(b>=13 && b<=16){
+			document.write("Good Afternoon");
+		}
+		else if(b>=17 && b<=20){
+			document.write("Good Evening");
+		}
+		else if(b>=21 && b<=24){
+			document.write("Good Night");
+		}
+		document.write("<br>")
+		
+		
+		
+		</script>
+	</body>
+	</html>
